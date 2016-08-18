@@ -1,0 +1,31 @@
+{
+  "name": "despacho_admin",
+  "version": "1.0.0",
+  "description": "Administración del sistema de despacho",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgiacosa/despachoAdmin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgiacosa/despachoAdmin/issues"
+  },
+  "homepage": "https://github.com/sgiacosa/despachoAdmin#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "deferred": "^0.7.5",
+    "express": "^4.14.0",
+    "fs": "0.0.2",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "mssql": "^3.3.0",
+    "path": "^0.12.7",
+    "require-dir": "^0.3.0"
+  }
+}
